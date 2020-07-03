@@ -26,11 +26,12 @@ const person = [
   'Cotander',
   'Loski',
   'Extensy',
+  'Dog',
 
   'Songoda',
   'MD_5',
   'Aikar',
-  'Choco'
+  'Choco',
 ];
 
 const team = [
