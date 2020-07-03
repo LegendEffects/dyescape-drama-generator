@@ -85,12 +85,28 @@ const buzzword = [
   'microservices'
 ];
 
+const channel = [
+  'general',
+  'anime',
+  'art',
+  'memes',
+  'gaming',
+  'food',
+  'programming',
+  'tech',
+  'pets',
+  'bot-commands'
+]
+
 const sentences = [
   '{person} starts drama on {site}',
   '{person} starts drama about {person} on {site}',
   '{person} starts drama about {person}',
   '{person} does something dumb on {site}',
   'Drama on {site} is brought to Dyescape by {person}',
+  '{person} refuses to sign an NDA',
+  '{person} mentions 1.8',
+  '{channel} gets deleted',
 
   '{person} recommends making {thing} use {buzzword} to avoid {drama}',
   '{person} recommends making {thing} use {buzzword} to make {drama}',
@@ -108,4 +124,4 @@ const sentences = [
   '{team} {say} {drama}'
 ];
 
-export default { person, staff, site, say, drama, thing, buzzword, team, sentences };
+export default { person, staff, site, say, drama, thing, buzzword, team, channel, sentences };
