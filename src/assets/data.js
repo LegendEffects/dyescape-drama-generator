@@ -27,6 +27,7 @@ const person = [
   'Loski',
   'Extensy',
   'Dog',
+  'Jay',
 
   'Songoda',
   'MD_5',
@@ -76,13 +77,15 @@ const thing = [
   'essentials',
   'rule engine',
   'phasing',
-  'mob path api'
+  'mob path api',
+  'Mazikro\'s AI'
 ]
 
 const buzzword = [
   'kubernetes',
   'software as a service',
-  'microservices'
+  'microservices',
+  'ansible'
 ];
 
 const channel = [
@@ -107,19 +110,21 @@ const sentences = [
   '{person} refuses to sign an NDA',
   '{person} mentions 1.8',
   '{channel} gets deleted',
-
+  '{person} leaves',
+  '{person} leaves because of {drama}',
+  '{person} applies for staff',
+  '{person} gets denied for alpha',
+  '{person} {say} bot isn\'t working because of {buzzword}',
+  '{staff} owes {staff} money over {buzzword}',
+  '{staff} releases a cringy devlog',
   '{person} recommends making {thing} use {buzzword} to avoid {drama}',
   '{person} recommends making {thing} use {buzzword} to make {drama}',
-
   '{person} brings up {person} on {site}',
   '{person} joins {team}',
-
   '{person} gets warned by {staff}',
   '{person} sends ludes to {staff}',
-
   '{person} decides to rewrite {thing} to be more like {thing}',
   '{person} decides to rewrite {thing} to be less like {thing}',
-
   '{team} is tagged by {person}',
   '{team} {say} {drama}'
 ];
